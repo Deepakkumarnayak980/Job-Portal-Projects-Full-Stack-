@@ -4,7 +4,7 @@ export const AppContext=createContext()
 
 export const AppContextProvider =(props) =>{
 
-    const [SearchFilter,setSearchFilter]=useState({
+    const [searchFilter,setSearchFilter]=useState({
         title:'',
         location:''
     })
@@ -12,7 +12,7 @@ export const AppContextProvider =(props) =>{
     const [isSearched,setIsSearched]=useState(false)
 
     const value={
-      setSearchFilter,SearchFilter,
+      setSearchFilter,searchFilter,
       isSearched,setIsSearched
     }
 

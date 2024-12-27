@@ -16,8 +16,6 @@ function Hero() {
             location:locationRef.current.value
         })
         setIsSearched(true)
-        
-        
 
     }
 
@@ -76,7 +74,7 @@ function Hero() {
                     <img className='h-6' src={assets.samsung_logo} />
                     <img className='h-6' src={assets.accenture_logo}/>
                 </div>
-' 
+
             </div>
         </div>
     );

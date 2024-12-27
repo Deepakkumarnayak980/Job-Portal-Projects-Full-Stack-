@@ -31,6 +31,7 @@ function Hero() {
                 </p>
                 <div className="flex items-center justify-between bg-white rounded text-gray-600 max-w-xl pl-4 mx-4 sm:mx-auto">
                     {/* Search Input */}
+                    
                     <div className="flex items-center bg-white shadow rounded p-2">
                         <img
                             src={assets.search_icon}
@@ -60,6 +61,7 @@ function Hero() {
                         />
                     </div>
                     <button onClick={onSearch} className="bg-blue-600 px-6 py-2 rounded text-white m-1">Search</button>
+                    
                 </div>
             </div>
 

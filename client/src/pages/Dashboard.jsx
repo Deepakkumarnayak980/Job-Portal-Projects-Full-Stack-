@@ -32,7 +32,9 @@ const Dashboard = () => {
         </div>
       </div>
 
-      <div className="flex items-center">
+      <div className="flex items-start">
+
+
         {/* Left SIdebar with option to add job , manage jobs,view application */}
         <div className="inline-block min-h-screen border-r-2">
           <ul className="flex flex-col items-start pt-5 text-gray-800">

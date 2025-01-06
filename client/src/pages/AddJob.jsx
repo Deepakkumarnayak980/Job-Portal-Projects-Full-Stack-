@@ -78,7 +78,7 @@ const AddJob = () => {
                         className="w-full border rounded-md p-2 focus:ring-blue-500 focus:border-blue-500"
                     >
                         {JobCategories.map((category, index) => (
-                            <option key={index} value={category}>
+                            <option key={`${category}-${index}`} value={category}>
                                 {category}
                             </option>
                         ))}
@@ -95,8 +95,9 @@ const AddJob = () => {
                         onChange={(e) => setLocation(e.target.value)}
                         className="w-full border rounded-md p-2 focus:ring-blue-500 focus:border-blue-500"
                     >
+
                         {JobLocations.map((location, index) => (
-                            <option key={index} value={location}>
+                            <option key={`${location}-${index}`} value={location}>
                                 {location}
                             </option>
                         ))}

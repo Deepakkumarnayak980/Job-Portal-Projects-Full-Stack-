@@ -38,11 +38,11 @@ const AddJob = () => {
     return (
         <form
             onSubmit={handleSubmit}
-            className="max-w-4xl mx-auto p-8 bg-white shadow-lg rounded-md space-y-6"
+            className="max-w-4xl mx-auto mt-2 p-8 bg-white shadow-lg rounded-md space-y-6"
         >
             {/* Job Title */}
             <div>
-                <label className="block text-sm font-semibold text-gray-600 mb-2">
+                <label className="block text-sm font-semibold text-black-800 mb-2">
                     Job Title
                 </label>
                 <input
